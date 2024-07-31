@@ -161,14 +161,32 @@ main > section {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .enjoy-feature-card .feature-title{
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -90px; 
+    margin-top: -130px;
+
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect img {
+    width: 100%;
 }
 
 /* some facts related styles */
@@ -232,9 +250,12 @@ main > section {
     .navbar,
     .nav-links,
     .team,
+    .enjoy-features
     {
         flex-direction: column;
     }
+
+    
 
     .sponsor-companies {
         grid-template-columns: 1fr;
@@ -259,6 +280,11 @@ main > section {
     .our-fearures {
         margin-left: 20px;
     }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 
@@ -267,7 +293,12 @@ main > section {
 /* medium device size */
 
 @media screen and (min-width: 576px) and (max-width:992px) {
-    .team {
+    
+    .banner-image img {
+        width: 100%;
+    }
+    
+    .team .enjoy-features {
         flex-direction: column;
 
     }
@@ -280,6 +311,11 @@ main > section {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-content: center;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     
 }
