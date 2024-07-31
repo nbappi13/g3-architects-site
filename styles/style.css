@@ -194,6 +194,7 @@ main > section {
 .facts-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
 }
 .fact-card {
    border: 1px solid #FF900E;
@@ -220,6 +221,7 @@ main > section {
 
 .fact-description {
     max-width: 542px;
+    margin-top: 25px;
     
 }
 
